@@ -1,0 +1,35 @@
+% Use this file as a template for each table you create in your paper.
+
+% The [t] parameter ensures tables appear at the top of pages/columns where possible.
+% If this is not preferred, you can remove it.
+\begin{table}[t]
+    \centering
+
+    \caption{
+        % Adding the label inside the caption helps LaTeX to number it properly.
+        \label{tab:example}
+        % Table captions appear ABOVE the table.
+        Add your caption here.
+    }
+
+    % Set the text alignment for each column here:
+    % - Text should be aligned to the left with 'l'
+    % - Numbers should be aligned to the right with 'r'
+    % - You can also align columns to the middle with 'c'
+    %
+    % The position of each letter determines the alignment of the corresponding column.
+    % For example, the second letter here ('r') indicates that the second column will be aligned to the right.
+    \begin{tabular}{lr}
+        \toprule
+            % Add a new line for each column heading here
+            {\bf Algorithm}  &
+            {\bf Best Fitness}
+            \\
+        \midrule
+
+        % Import the data for your table here, e.g:
+        \input data/results
+
+        \bottomrule
+    \end{tabular}
+\end{table}
