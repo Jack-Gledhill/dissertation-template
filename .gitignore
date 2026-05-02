@@ -1,0 +1,28 @@
+# BUILD FILES
+paper.pdf
+
+# LATEX TEMPORARY FILES
+*.aux
+*.fdb_latex
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex(busy)
+*.synctex.gz
+*.toc
+
+# BIBTEX TEMPORARY FILES
+*.bbl
+*.blg
+
+# OS
+.DS_Store
+
+# EDITOR
+.vscode
+.idea/
+
+out/
